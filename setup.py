@@ -46,7 +46,7 @@ def main():
 
     install_requires = [
         "greenlet","zope.interface>=5.5.2, <6.0","pyparsing>=1.4.11,<1.6", "timelib>=0.2", "bottle>=0.10",
-        "pyPdf>=1.12, <3.0", "apipkg>=1.2, <2.0", "qserve>=0.2.7", "lxml",
+        "pyPdf>=1.12, <3.0", "apipkg>=1.2, <2.0", "qserve>=0.2.7", "lxml<=4.9.3",
         "py>=1.4", "sqlite3dbm", "simplejson>=2.3", "roman", "gevent<23.0",
         "odfpy>=0.9, <0.10", "Pillow>=6.2, <7.0", "setuptools"]
 
